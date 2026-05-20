@@ -15,9 +15,9 @@ export function ContactHero() {
             possibilities — we&apos;re here to help.
           </p>
         </div>
-        <div className="cyber-chamfer overflow-hidden border border-border">
+        <div className="relative overflow-hidden">
           <Image
-            src="/assets/images/contactus.jpg"
+            src="/assets/contactus1.png"
             alt=""
             width={900}
             height={560}

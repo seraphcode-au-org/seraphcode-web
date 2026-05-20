@@ -54,9 +54,9 @@ export function CybersecuritySection() {
               ))}
             </ul>
           </div>
-          <div className="cyber-chamfer overflow-hidden border border-border">
+          <div className="relative overflow-hidden">
             <Image
-              src="/assets/images/cyber.jpg"
+              src="/assets/security.png"
               alt=""
               width={900}
               height={700}

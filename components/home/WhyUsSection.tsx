@@ -22,15 +22,14 @@ export function WhyUsSection() {
           solutions that drive real results.
         </p>
         <div className="grid items-start gap-10 lg:grid-cols-2">
-          <div className="cyber-chamfer relative order-2 overflow-hidden border border-border shadow-[var(--box-shadow-neon-sm)] lg:order-1">
+          <div className="relative order-2 overflow-hidden lg:order-1">
             <Image
-              src="/assets/images/whyseraphcode.jpg"
+              src="/assets/whyus.png"
               alt=""
               width={900}
               height={700}
-              className="h-full w-full object-cover opacity-90"
+              className="h-full w-full object-cover"
             />
-            <div className="pointer-events-none absolute inset-0 bg-gradient-to-tr from-[color:var(--hero-fade-from)] via-transparent to-transparent" />
           </div>
           <div className="order-1 grid gap-6 sm:grid-cols-2 lg:order-2">
             <FeatureCard

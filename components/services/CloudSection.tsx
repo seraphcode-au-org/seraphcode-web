@@ -33,9 +33,9 @@ export function CloudSection() {
     >
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="grid items-start gap-10 lg:grid-cols-2">
-          <div className="cyber-chamfer order-2 overflow-hidden border border-border lg:order-1">
+          <div className="relative order-2 overflow-hidden lg:order-1">
             <Image
-              src="/assets/images/cloude.jpg"
+              src="/assets/cloude1.png"
               alt=""
               width={900}
               height={700}

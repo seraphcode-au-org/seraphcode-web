@@ -20,11 +20,11 @@ export function BrandLogoHomeLockup({
       {spotlight === "white" ? (
         <>
           <span
-            className="pointer-events-none absolute left-1/2 top-1/2 z-0 h-[4.75rem] w-[7rem] -translate-x-1/2 -translate-y-1/2 bg-[radial-gradient(ellipse_46%_44%_at_50%_48%,#ffffff_0%,rgba(255,255,255,0.88)_12%,rgba(255,255,255,0.42)_28%,rgba(255,255,255,0.1)_42%,transparent_56%)] blur-md"
+            className="pointer-events-none absolute left-1/2 top-1/2 z-0 h-[6.5rem] w-[9.5rem] -translate-x-1/2 -translate-y-1/2 bg-[radial-gradient(ellipse_50%_48%_at_50%_48%,#ffffff_0%,rgba(255,255,255,0.98)_18%,rgba(255,255,255,0.7)_38%,rgba(255,255,255,0.22)_60%,transparent_72%)] blur-2xl"
             aria-hidden
           />
           <span
-            className="pointer-events-none absolute left-1/2 top-1/2 z-0 h-16 w-20 -translate-x-1/2 -translate-y-1/2 bg-[radial-gradient(circle_at_50%_44%,#ffffff_0%,rgba(255,255,255,0.78)_18%,transparent_46%)] blur-sm"
+            className="pointer-events-none absolute left-1/2 top-1/2 z-0 h-[5.5rem] w-[7.5rem] -translate-x-1/2 -translate-y-1/2 bg-[radial-gradient(circle_at_50%_44%,#ffffff_0%,rgba(255,255,255,0.98)_28%,transparent_60%)] blur-lg"
             aria-hidden
           />
         </>

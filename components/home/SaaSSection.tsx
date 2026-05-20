@@ -46,15 +46,14 @@ export function SaaSSection() {
               description="Bank-level security, compliance, and data protection built into every SaaS product we develop."
             />
           </div>
-          <div className="cyber-chamfer relative overflow-hidden border border-border shadow-[var(--box-shadow-neon-sm)]">
+          <div className="relative overflow-hidden">
             <Image
-              src="/assets/images/saas.jpg"
+              src="/assets/saas.png"
               alt=""
               width={900}
               height={700}
-              className="h-full w-full object-cover opacity-90"
+              className="h-full w-full object-cover"
             />
-            <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-background via-transparent to-transparent" />
           </div>
         </div>
         <div className="mt-10">

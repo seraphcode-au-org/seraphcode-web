@@ -21,9 +21,9 @@ export function CareersHero() {
             </Button>
           </div>
         </div>
-        <div className="cyber-chamfer overflow-hidden border border-border">
+        <div className="relative overflow-hidden">
           <Image
-            src="/assets/images/carear.jpg"
+            src="/assets/career3.png"
             alt=""
             width={900}
             height={560}

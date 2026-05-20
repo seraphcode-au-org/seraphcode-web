@@ -38,9 +38,9 @@ export function WhatWeDoAbout() {
               description="Native Android & iOS, cross-platform Flutter/React Native apps including booking systems and on-demand services."
             />
           </div>
-          <div className="cyber-chamfer overflow-hidden border border-border">
+          <div className="relative overflow-hidden">
             <Image
-              src="/assets/images/whatwedo.jpg"
+              src="/assets/whatwedo.png"
               alt=""
               width={900}
               height={700}

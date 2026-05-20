@@ -22,9 +22,9 @@ export function AboutHero() {
             </Button>
           </div>
         </div>
-        <div className="cyber-chamfer overflow-hidden border border-border shadow-[var(--box-shadow-neon-sm)]">
+        <div className="relative overflow-hidden">
           <Image
-            src="/assets/images/aboutseraphcode.jpg"
+            src="/assets/aboutseraph.png"
             alt=""
             width={900}
             height={640}
