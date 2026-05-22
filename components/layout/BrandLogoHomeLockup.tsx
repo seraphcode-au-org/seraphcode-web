@@ -4,7 +4,7 @@ type BrandLogoHomeLockupProps = {
   /** Set true in the sticky header for LCP */
   priority?: boolean;
   /** Navbar: bright white “stage” wash behind the mark */
-  spotlight?: "accent" | "white";
+  spotlight?: "accent" | "white" | "none";
 };
 
 /**
@@ -16,7 +16,7 @@ export function BrandLogoHomeLockup({
   spotlight = "accent",
 }: BrandLogoHomeLockupProps) {
   return (
-    <span className="relative inline-flex h-14 shrink-0 items-center overflow-visible sm:h-16 md:h-[4.25rem]">
+    <span className="relative inline-flex h-14 shrink-0 items-center overflow-visible sm:h-16 md:h-[4.2rem]">
       {spotlight === "white" ? (
         <>
           <span
@@ -28,15 +28,15 @@ export function BrandLogoHomeLockup({
             aria-hidden
           />
         </>
-      ) : (
+      ) : spotlight === "accent" ? (
         <span
           className="pointer-events-none absolute left-1/2 top-1/2 z-0 h-[3.75rem] w-[6rem] -translate-x-1/2 -translate-y-1/2 bg-[radial-gradient(ellipse_at_center,rgba(0,245,212,0.45)_0%,rgba(0,245,212,0.14)_38%,transparent_58%)] blur-md"
           aria-hidden
         />
-      )}
+      ) : null}
       <SiteLogo
         priority={priority}
-        className="navbar-logo relative z-[1] h-full w-auto max-h-full max-w-[10.5rem] object-contain object-left sm:max-w-[12rem] md:max-w-[13rem]"
+        className="navbar-logo relative z-[1] h-full w-auto max-h-full max-w-[12rem] object-contain object-left sm:max-w-[14rem] md:max-w-[15rem]"
       />
     </span>
   );

@@ -40,7 +40,7 @@ export function Footer() {
           <div>
             <Link
               href="/"
-              className="relative inline-flex items-center overflow-visible rounded-sm outline-none focus-visible:ring-2 focus-visible:ring-accent focus-visible:ring-offset-2 focus-visible:ring-offset-background"
+              className="relative flex h-20 w-20 items-center justify-center overflow-visible rounded-full bg-white border border-border/80 shadow-[0_0_15px_rgba(0,0,0,0.08)] outline-none transition-transform hover:scale-105 focus-visible:ring-2 focus-visible:ring-accent focus-visible:ring-offset-2 focus-visible:ring-offset-background"
               aria-label="SeraphCode  Home"
             >
               <BrandLogoHomeLockup />

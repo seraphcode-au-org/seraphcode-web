@@ -4,7 +4,7 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useState } from "react";
 import { Menu, X } from "lucide-react";
-import { BrandLogoHomeLockup } from "@/components/layout/BrandLogoHomeLockup";
+import { SiteLogo } from "@/components/layout/SiteLogo";
 
 const links = [
   { href: "/", label: "Home" },
@@ -40,10 +40,10 @@ export function Navbar() {
       <div className="mx-auto flex max-w-7xl items-center justify-between gap-4 px-4 py-3 sm:px-6 lg:px-8">
         <Link
           href="/"
-          className="relative flex items-center gap-2 overflow-visible rounded-sm outline-none focus-visible:ring-2 focus-visible:ring-accent focus-visible:ring-offset-2 focus-visible:ring-offset-background"
+          className="relative flex h-16 w-16 items-center justify-center overflow-visible rounded-full bg-white border border-border/80 shadow-[0_0_15px_rgba(0,0,0,0.08)] outline-none transition-transform hover:scale-105 focus-visible:ring-2 focus-visible:ring-accent focus-visible:ring-offset-2 focus-visible:ring-offset-background"
           aria-label="SeraphCode — Home"
         >
-          <BrandLogoHomeLockup priority spotlight="white" />
+          <SiteLogo priority className="h-20 w-20 object-contain" />
         </Link>
 
         <nav className="hidden items-center gap-8 lg:flex" aria-label="Primary">
