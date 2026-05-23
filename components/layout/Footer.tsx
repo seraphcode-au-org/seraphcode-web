@@ -35,7 +35,7 @@ const columns = [
 export function Footer() {
   return (
     <footer className="cyber-surface-deep border-t border-border">
-      <div className="mx-auto max-w-7xl px-4 py-14 sm:px-6 lg:px-8">
+      <div className="mx-auto max-w-7xl px-4 py-14 sm:px-6 lg:px-8"> 
         <div className="grid gap-10 lg:grid-cols-[1.2fr_repeat(4,1fr)]">
           <div>
             <Link
