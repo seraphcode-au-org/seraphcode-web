@@ -48,7 +48,7 @@ export function SaaSSection() {
           </div>
           <div className="relative overflow-hidden">
             <Image
-              src="/assets/saas.png"
+              src="/assets/saas.svg"
               alt=""
               width={900}
               height={700}

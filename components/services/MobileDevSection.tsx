@@ -59,7 +59,7 @@ export function MobileDevSection() {
           </div>
           <div className="relative overflow-hidden">
             <Image
-              src="/assets/app.png"
+              src="/assets/app.svg"
               alt=""
               width={900}
               height={700}

@@ -24,7 +24,7 @@ export function WhyUsSection() {
         <div className="grid items-start gap-10 lg:grid-cols-2">
           <div className="relative order-2 overflow-hidden lg:order-1">
             <Image
-              src="/assets/whyus.png"
+              src="/assets/whyus.svg"
               alt=""
               width={900}
               height={700}

@@ -56,7 +56,7 @@ export function CybersecuritySection() {
           </div>
           <div className="relative overflow-hidden">
             <Image
-              src="/assets/security.png"
+              src="/assets/security.svg"
               alt=""
               width={900}
               height={700}

@@ -17,7 +17,7 @@ export function ContactHero() {
         </div>
         <div className="relative overflow-hidden">
           <Image
-            src="/assets/contactus1.png"
+            src="/assets/contactus1.svg"
             alt=""
             width={900}
             height={560}

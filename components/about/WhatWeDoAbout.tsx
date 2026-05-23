@@ -40,7 +40,7 @@ export function WhatWeDoAbout() {
           </div>
           <div className="relative overflow-hidden">
             <Image
-              src="/assets/whatwedo.png"
+              src="/assets/whatwedo.svg"
               alt=""
               width={900}
               height={700}

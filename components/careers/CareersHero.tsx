@@ -23,7 +23,7 @@ export function CareersHero() {
         </div>
         <div className="relative overflow-hidden">
           <Image
-            src="/assets/career3.png"
+            src="/assets/career3.svg"
             alt=""
             width={900}
             height={560}

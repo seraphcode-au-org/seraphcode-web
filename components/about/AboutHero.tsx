@@ -24,7 +24,7 @@ export function AboutHero() {
         </div>
         <div className="relative overflow-hidden">
           <Image
-            src="/assets/aboutseraph.png"
+            src="/assets/aboutseraph.svg"
             alt=""
             width={900}
             height={640}
